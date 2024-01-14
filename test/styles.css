@@ -1,0 +1,126 @@
+
+body{
+  padding-top:30px;
+}
+table {
+  border: 0px;
+  padding-left:25%;
+  
+  width: 100%;
+}
+th {
+  padding: 30px;
+  font-size:35px;
+  color:white;
+}
+th,td {
+  background-color: #1e4f81;
+  border-radius: 6px;
+  
+  color:white;
+  width: 100px;
+  padding:70px;
+  
+}
+button {
+  margin:20px;background-color:#1e4f81; border:0px;color:white;font-size: 30px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+nav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 250px;
+  height: 158vh;
+  background-color: #1e4f81;
+  width:75px;
+  overflow:hidden;
+  transition:width 0.2s linear;
+  box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+
+.fas{
+  color: white;
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+a{
+  position: relative;
+  
+  font-size: 14px;
+  display:table;
+  width: 300px;
+  padding:10px;
+
+}
+.nav-items{
+  position: relative;
+  top: 30px;
+  margin-left: 20px;
+  color:white;
+}
+nav:hover{
+  width: 280px;
+  transition: all 0.5s ease;
+
+}
+a:hover{
+  background:#5ea8f2e6;
+  transition:all 0.5s ease;
+  
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color:rgba(0,0,0,0.1);
+}
+a:active {
+  color: blue;
+}
+#button{
+  display:flex;
+  flex-direction: row;
+  position: relative;
+  padding-left: 424px;
+
+}
+#sub_but{
+  display:flex;
+  flex-direction: row;
+  position: relative;
+  padding-left: 424px;
+
+}
+.CV{
+  background-color: #1e4f81;
+  border-radius: 6px;
+  text-align: center;
+  color:white;
+  width: 100px;
+  padding:30px;
+
+}
+
+li{
+  align-items: initial;
+}
+
+
+
+  
